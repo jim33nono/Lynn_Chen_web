@@ -46,6 +46,7 @@ img {
 
 .topnav .icon {
     display: none;
+    font-size: 17px;
 }
 
 @media screen and (max-width: 750px) {
@@ -135,12 +136,12 @@ img {
 }
 
 .skills-left {
-     float: left;
+    float: left;
     width: 45%;
 }
 
 .skills-right {
-     float: right;
+    float: right;
     width: 45%;
 }
 
@@ -246,7 +247,6 @@ tr:nth-child(even) {
     color: darkblue
 }
 */
-
 
 /*
 .youtube_img,
