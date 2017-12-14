@@ -12,7 +12,7 @@ header .fixedtop {
     top: 0;
     width: 100%;
     display: block;
-
+    z-index:999;
 }
 
 img {
@@ -50,7 +50,12 @@ img {
 }
 
 @media screen and (max-width: 750px) {
+    /*
     .topnav a:not(:first-child) {
+        display: none;
+    }
+*/
+    .topnav a {
         display: none;
     }
     .topnav a.icon {
