@@ -1,9 +1,4 @@
 $(document).ready(function () {
-    //    $.get("https://api.myjson.com/bins/1afts3", function (data, status) {
-    //        alert(`Data: ${JSON.stringify(data)}\nStatus: ${status}`);
-    //    });
-
-
 
     $("#submitMessage").click(function () {
         var inputEmail = $('#inputEmail1').val();
