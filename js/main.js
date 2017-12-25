@@ -1,5 +1,16 @@
 $(document).ready(function () {
 
+    $('nav').on('click', 'a', function (event) {
+        event.preventDefault(); //prevents previous event
+        smoothScroll($(this.hash));
+    });
+
+    function smoothScroll(target) {
+        $('html,body').animate({
+            scrollTop: target.offset().top
+        }, 600);
+    }
+
     $("#submitMessage").click(function () {
         var inputEmail = $('#inputEmail1').val();
         var userName = $('#userName').val();
